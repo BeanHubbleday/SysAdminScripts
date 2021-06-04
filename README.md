@@ -1,2 +1,2 @@
-# SysAdminScripts
-A collection of my scripts, useful for Sys Admins
+# Useful System Administrator Scripts
+A collection of my scripts, that could be useful for other system administrators.
