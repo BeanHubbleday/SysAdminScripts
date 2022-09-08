@@ -5,6 +5,9 @@ $globalAdmin = Read-Host -Prompt "Enter The Global Admin Username"
 Write-Host "Enter The Global Admin Password When Prompted"
 Connect-ExchangeOnline -UserPrincipalName $globalAdmin 
 
+#Start online archiving
+$archivingUser = Read-Host -Prompt "Enter The Email Address Of The User You Want To View Archiving Status For"
+
 #Show archive size & refresh every X seconds
 $aMadeUpVariable = 0
 $seconds = Read-Host -Prompt "How Often Do You Want To Refresh The Status (Seconds)?"
